@@ -1,5 +1,12 @@
+body {
+  background-image: url('/building-bg.ba0b576a.png');
+  margin: 0;
+  background-size: contain;
+}
+
 .App-header {
-  background-image: url('https://nearprotocol.com/wp-content/uploads/2019/03/illo-developers.svg');
+  /*background-color: #F0EC74;*/
+  background-color: rgba(200,200,200,.9);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +50,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+  max-width: 700px;
+  /*font-weight: bold;*/
+  font-size: 19px;
 }
 
 .logo {
@@ -51,14 +62,15 @@
 
 p {
   color: #25282A;
-  font-family: sans-serif;
+  font-family: 'Libre Franklin',sans-serif;
 }
 
 button {
-  padding: 5px;
+  padding: 13px;
   color: #0072CE;
   border-radius: 10px;
   border: 3px solid #0072CE;
+  font-size: 17px;
 }
 
 button:hover {
@@ -66,5 +78,14 @@ button:hover {
   color: white;
   background: #0072CE;
 } 
+
+.hackathon-text {
+  max-width: 80%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 40%;
+}
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
